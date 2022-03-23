@@ -2,6 +2,8 @@
   width: 50%;
   margin: 0 auto;
   margin-top: 30px;
+  padding: 10px;
+  box-shadow: 5px 10px 8px 10px #888;
 }
 
 .todo-title,
@@ -86,15 +88,21 @@
   align-items: center;
 }
 
-
 .clear-all {
-    background-color: beige;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .clear-title {
-    padding-top: 5px;
-    padding-bottom: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #3e4551;
 }
