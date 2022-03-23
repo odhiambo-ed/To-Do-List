@@ -1,28 +1,50 @@
 import './style.css';
 
+const initialArr = [
+  {
+    todo: 'wash Dishes',
+    completed: false,
+  },
+  {
+    todo: 'complete ToDo list projects',
+    completed: false,
+  },
+];
+
 const displayItems = (position, item) => {
   const tableBody = document.getElementById('tbody');
   const tableRow = document.createElement('tr');
   const th1 = document.createElement('th');
-  th1.innerHTML = `<input type="checkbox" name="check" id={${position}}>`;
+  th1.innerHTML = `<input class="check" type="checkbox" name="check" id={${position}}>`;
   const th2 = document.createElement('td');
   th2.innerHTML = `<p>${item.todo}</p>`;
+  const th3 = document.createElement('td');
+  th3.innerHTML = `
+    <div class="end-dots">
+      <i class="bi bi-three-dots-vertical float-right"></i>
+    </div>
+  `;
   tableRow.appendChild(th1);
   tableRow.appendChild(th2);
+  tableRow.appendChild(th3);
   tableBody.appendChild(tableRow);
 };
 
 const getAllTodos = () => {
   const getTodos = JSON.parse(localStorage.getItem('todos'));
-  if (getTodos !== null) {
-    getTodos.forEach((val) => {
-      displayItems(getTodos.indexOf(val), val);
-    });
-  }
+  getTodos.forEach((val) => {
+    displayItems(getTodos.indexOf(val), val);
+  });
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-  getAllTodos();
+  const getTodos = JSON.parse(localStorage.getItem('todos'));
+  if (getTodos === null) {
+    localStorage.setItem('todos', JSON.stringify(initialArr));
+    getAllTodos();
+  } else {
+    getAllTodos();
+  }
 });
 
 class Todo {
@@ -35,17 +57,11 @@ class Todo {
       todo,
       completed: false,
     };
-
+    this.todoArr.push(newTodo);
     const existingTodo = JSON.parse(localStorage.getItem('todos'));
-    if (existingTodo === null) {
-      this.todoArr.push(newTodo);
-      localStorage.setItem('todos', JSON.stringify(this.todoArr));
-      window.location.reload(true);
-    } else {
-      const newTodoArr = [...existingTodo, newTodo];
-      localStorage.setItem('todos', JSON.stringify(newTodoArr));
-      window.location.reload(true);
-    }
+    const newTodoArr = [...existingTodo, ...this.todoArr];
+    localStorage.setItem('todos', JSON.stringify(newTodoArr));
+    window.location.reload(true);
   }
 }
 
