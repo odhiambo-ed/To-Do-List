@@ -1,15 +1,37 @@
-# 🚀 Welcome to your new awesome project!
+# To-Do-List
 
-This project has been created using **webpack-cli**, you can now run
+This a To-Do List App. In this project, I have added a number of functionality to the application to make it interactive. The user will be able to mark task completion by selecting the corresponding checkbox (or undo it by unchecking the checkbox). The updated tasks list will be stored in local storage.
 
-```
-npm run build
-```
+## Built With
 
-or
+- Major languages - <b>HTML</b>, <b>CSS</b> and var s = "JavaScript"; alert(s);
 
-```
-yarn build
-```
+## Getting Started
 
-to bundle your application
+Live link: https://white3d.github.io/To-Do-List/
+
+Use this url to clone the repo on your terminal: https://github.com/white3d/To-Do-List.git
+
+## Authors
+
+👤 **Edward Odhiambo**
+
+![screenshot](./images/Edward2.jpeg)
+
+[Portfolio Website](https://odhiambo-edward.netlify.app/)
+
+- GitHub: [@whit3d](https://github.com/white3d)
+- Twitter: [@odhiambo_ed](https://twitter.com/odhiambo_ed)
+- LinkedIn: [Edward Odhiambo](https://www.linkedin.com/in/edward-odhiambo-6a462a21b/)
+
+## 🤝 Contributing
+
+To any developer who would wish to contribute to this project, you are welcome!
+
+## Show your support
+
+Kindly rate ⭐️ this project if you like it.
+
+## Acknowledgments
+
+- Special thanks to Microverse.
