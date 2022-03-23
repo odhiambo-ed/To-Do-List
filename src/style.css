@@ -1,5 +1,5 @@
 .todo-table {
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
   margin-top: 30px;
   padding: 10px;
@@ -13,6 +13,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+#todo-form {
+  flex: 1;
+  margin-right: 30px;
 }
 
 .todo-title {
@@ -104,5 +109,9 @@
 }
 
 footer {
-  background-color: #3e4551;
+  background-color: #f1f1f1;
+}
+
+.copyright {
+  background-color: rgba(0, 0, 0, 0.2);
 }

@@ -40,11 +40,11 @@ class Todo {
     if (existingTodo === null) {
       this.todoArr.push(newTodo);
       localStorage.setItem('todos', JSON.stringify(this.todoArr));
-      getAllTodos();
+      window.location.reload(true);
     } else {
       const newTodoArr = [...existingTodo, newTodo];
       localStorage.setItem('todos', JSON.stringify(newTodoArr));
-      getAllTodos();
+      window.location.reload(true);
     }
   }
 }
