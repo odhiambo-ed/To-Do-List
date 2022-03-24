@@ -37,7 +37,7 @@ To any developer who would wish to contribute to this project, you are welcome!!
 
 ## Show your support
 
-Kindly rate ⭐️ this project if you like it. Thank you in advance!
+Kindly rate ⭐️ this project if you like it.
 
 ## Acknowledgments
 
