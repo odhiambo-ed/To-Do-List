@@ -7,7 +7,7 @@ This a To-Do List App. In this project, I have added a number of functionality t
 
 ## Built With
 
-- Major languages - <b>HTML</b>, <b>CSS</b> and var s = "JavaScript"; alert(s);
+- Major languages - `HTML`, `CSS` and `JavaScript`
 
 ## Getting Started
 
