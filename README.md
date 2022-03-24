@@ -33,11 +33,11 @@ Hurray!!! You are now good to go.
 
 ## 🤝 Contributing
 
-To any developer who would wish to contribute to this project, you are welcome!
+To any developer who would wish to contribute to this project, you are welcome!!
 
 ## Show your support
 
-Kindly rate ⭐️ this project if you like it.
+Kindly rate ⭐️ this project if you like it. Thank you in advance!
 
 ## Acknowledgments
 
