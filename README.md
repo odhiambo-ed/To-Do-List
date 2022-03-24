@@ -15,6 +15,12 @@ Live link: https://white3d.github.io/To-Do-List/
 
 Use this url to clone the repo on your terminal: https://github.com/white3d/To-Do-List.git
 
+After cloning the repo, change dir to the project folder then run the following:
+* [x] `npm install`
+* [x] `npm start`
+
+Hurray!!! You are now good to go.
+
 ## Authors
 
 👤 **Edward Odhiambo**

@@ -49,9 +49,6 @@ const displayItems = (position, item) => {
   th1.appendChild(checkInput);
   const th2 = document.createElement('td');
   th2.appendChild(todoInput);
-  // th2.innerHTML = `<p class="${item.completed && 'completed'}">${
-  //   item.todo
-  // }</p>`;
   const th3 = document.createElement('td');
   th3.appendChild(deleteButton);
   const th4 = document.createElement('td');
