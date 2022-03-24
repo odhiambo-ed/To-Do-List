@@ -1,4 +1,4 @@
-import displayItems from './displayTodos.js';
+import displayItems from './displayTodos';
 
 const getAllTodos = () => {
   const getTodos = JSON.parse(localStorage.getItem('todos'));

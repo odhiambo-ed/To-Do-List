@@ -1,7 +1,7 @@
 import './style.css';
 
-import getAllTodos from './modules/getTodos.js';
-import Todo from './modules/todo.js';
+import getAllTodos from './modules/getTodos';
+import Todo from './modules/todo';
 
 const initialArr = [
   {
