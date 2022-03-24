@@ -27,7 +27,7 @@ Use this url to clone the repo on your terminal: https://github.com/white3d/To-D
 
 ## 🤝 Contributing
 
-To any developer who would wish to contribute to this project, you are welcome!
+To any developer who would wish to contribute to this project, you are welcome.
 
 ## Show your support
 
