@@ -108,6 +108,34 @@
   cursor: pointer;
 }
 
+.end-dots,
+#end-delete {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+#end-delete {
+  margin-left: 300px;
+  margin-top: 4px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.check {
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: grey;
+}
+
+* {
+  user-select: none;
+}
+
 footer {
   background-color: #f1f1f1;
 }
